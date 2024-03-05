@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="filtr">
+          <button class="filtr__btn">пицца</button>
+          <button class="filtr__btn">завтраки</button>
+          <button class="filtr__btn">коктейли</button>
+          <button class="filtr__btn">десерты</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="product__container"></div>
+      </div>
+    </main>
+
+    <template class="template">
+      <div class="product">
+        <div class="product__wrapper">
+          <img
+            class="product__img"
+            src="https://dodopizza-a.akamaihd.net/static/Img/Products/f8bcc0d18f5a4817a720a159f0f8c37c_366x366.webp"
+            alt=""
+          />
+          <div class="product__info">
+            <h2 class="product__name">Жюльен</h2>
+            <h3 class="product__description">
+              Цыпленок, шампиньоны, сливочный соус с грибами, красный лук,
+              чеснок, моцарелла, смесь сыров чеддер и пармезан, фирменный соус
+              альфредо
+            </h3>
+          </div>
+        </div>
+
+        <div class="product__bottom">
+          <div class="product__price"><span class="price">469</span>₽</div>
+
+          <button class="product__button">В корзину</button>
+        </div>
+      </div>
+    </template>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
